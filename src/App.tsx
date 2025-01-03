@@ -3,6 +3,7 @@ import "./App.css";
 import { useSelector } from "react-redux";
 import { updateUser } from "./slices/userSlice";
 import { RootState } from "./store/store";
+import SignUpPage from "./pages/Signup";
 
 function App() {
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <>
-      <h2 className="font-bold text-3xl text-red-500">{user.name}</h2>
+      <SignUpPage />
     </>
   );
 }

@@ -64,7 +64,7 @@ const userSlice = createSlice({
       for (const key in updates) {
         if (Object.prototype.hasOwnProperty.call(updates, key)) {
           state[key as keyof typeof updates] =
-            updates[key as keyof typeof updates];
+            updates[key as keyof typeof updates] ?? null;
         }
       }
     },
