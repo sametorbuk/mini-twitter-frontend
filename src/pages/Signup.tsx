@@ -44,25 +44,25 @@ export default function SignUpPage() {
             <button className="btn">Signup with phone or email</button>
           </div>
 
-          <div class="text-left font-bold text-sm text-gray-600 w-[20rem]">
+          <div className="text-left font-bold text-sm text-gray-600 w-[20rem]">
             <p>
               By signing up you agree to the
-              <a href="#" class="text-blue-500 hover:underline">
+              <a href="#" className="text-blue-500 hover:underline">
                 Terms of Service
               </a>{" "}
               and
-              <a href="#" class="text-blue-500 hover:underline">
+              <a href="#" className="text-blue-500 hover:underline">
                 Privacy Policy
               </a>
               , including
-              <a href="#" class="text-blue-500 hover:underline">
+              <a href="#" className="text-blue-500 hover:underline">
                 Cookie Use
               </a>
               .
             </p>
-            <p class="mt-4">
+            <p className="mt-4">
               Already have an account?
-              <a href="#" class="text-blue-500 hover:underline font-medium">
+              <a href="#" className="text-blue-500 hover:underline font-medium">
                 Log in
               </a>
             </p>
